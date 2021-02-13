@@ -1,8 +1,24 @@
-function myFunction() {
-    var navToggle = document.getElementById('nav-links')
-    navToggle.classList.toggle('close')
-}
+// function myFunction() {
+//     var navToggle = document.getElementById('nav-links')
+//     navToggle.classList.toggle('close')
+// }
 
+//Dom Course Start //
+// var myP = document.createElement('p')
+
+//     myPText = document.createTextNode('this paragraph created with javascript')
+    
+//     myP.appendChild(myPText)
+
+//     document.body.appendChild(myP)
+// Find Dom Elements //
+[1] 
+
+
+
+// Dom Course End //
+
+// Bom Course Start //
 
 // document.cookie("name=value, expires=Date, path=")
 // document.cookie = 'favfont=Droid,';
@@ -42,3 +58,5 @@ function myFunction() {
 //     }
 // }
 // var myTime = setInterval(countDown, 1000);,
+
+// Bom Course End //
