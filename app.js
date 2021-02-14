@@ -43,12 +43,51 @@
 // for (i = 0; i < document.images.length; i++) {
 //     document.write(document.images[i].src)
 // }
-var myDiv = document.getElementById('show');
-
+// var myDiv = document.getElementById('show');
 // myDiv.innerText = document.forms[0].x2.value
 // myDiv.innerText = document.forms[0].x2.type
 // myDiv.innerText = document.forms[0].x2.email
+//////////////  Get , Set Element Content  ///////////////////
+// innerText // Not Standard
+// outerText // Not Standard
+// innerHTML    Get HTML Content Of An Element
+// outerHTML
+// textContent  Get Text Content Of An Element 
+/////////////  Get , Set Attribute      //////////////////////
+// Start Work Area:
+// Element.Attribute = Direct Method
+// myImg = document.querySelector('img')
+// myImg.src = 'http://placehold.it/300'
 
+/////////////  Get , Set Attribute    ////////////////////////
+// getAttribute('Attribute Name')
+// setAttribute('Attribute Name', 'Attribute Value')
+// myImg = document.querySelector('img')
+// myImg.getAttribute('src')
+// myImg.setAttribute('src', 'http://www.placehold.it/400/100')
+
+/////////////////     Has , Remove Attribute       ///////////////////
+// myImg = document.querySelector('img')
+// if (myImg.hasAttribute('alt')) {
+//     console.log('Yes This Img Has Attribute Alt')
+// } else {
+//     console.log('No This Element Does Not Have Attribute Alt')
+// }
+// myImg = document.querySelector('img')
+// if (myImg.hasAttribute('alt')) {
+//     if (myImg.alt === "") {
+//         myImg.setAttribute("alt", 'Default Alternate Text')
+//     }
+// }
+// myImg = document.querySelector('img')
+// if (myImg.hasAttribute('alt')) {
+//     if (myImg.alt === "") {
+//         myImg.removeAttribute('alt');
+//     }
+// }
+/////////////////   ClassList[Item, Contains, Length]  ///////////////
+
+/////////////////   ClassList[Add, Remove, Toggle]    ///////////////
 
 ///////////////////    Dom Course END    /////////////////////
 
