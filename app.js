@@ -86,8 +86,103 @@
 //     }
 // }
 /////////////////   ClassList[Item, Contains, Length]  ///////////////
+// myDiv = document.getElementById('main');
+// if (myDiv.classList.contains('zero')) {
+//     console.log('yes this div contain class zero ')
+// } else {
+//     console.log('no div does not have class zero ')
+// }
+// myDiv = document.getElementById('main')
+// console.log(myDiv.classList.length)
+// myDiv = document.getElementById('main')
+// console.log(myDiv.classList.item(2))
+////////////    index = start from 0    //////////////
+////////////    length = start from 1   //////////////
+// var myClass = document.getElementById('paragraph')
+// myBtn = document.getElementById('btn')
+// if (myBtn.innerHTML == myClass.classList[0]) {
+//     console.log('yes the paragraph class have the same button text content')
+// } else {
+//     console.log('no the button text content not have the same paragraph class')
+// }
+// console.log(myBtn.innerHTML)
 
 /////////////////   ClassList[Add, Remove, Toggle]    ///////////////
+
+// var myDiv = document.getElementById('main');
+// myBtn = document.querySelector('button')
+// myBtn.onclick = () => {
+//     myDiv.classList.add('JS')
+//     myDiv.classList.remove('col')
+//     myDiv.classList.toggle('hidden')
+// }
+
+///////////////////   Element Children   /////////////////////
+
+// myDiv = document.getElementById('main')
+// console.log(myDiv.childElementCount)
+// console.log(myDiv.children[1].textContent)
+// console.log(myDiv.children.length)
+// console.log(myDiv.childNodes.length)
+// console.log(myDiv.childNodes)
+
+///////////////////     Elements Children    /////////////////////
+///////////////////   First And Last Child   /////////////////////
+
+// myDiv = document.getElementById('main')
+// console.log(myDiv.firstChild)        
+// console.log(myDiv.firstElementChild)
+// console.log(myDiv.lastChild)
+// console.log(myDiv.lastElementChild)
+
+///////////////////   Elements Children  /////////////////////
+///////////////////     Insert Before   /////////////////////
+
+// var myMainDiv = document.getElementById('main');
+// //Create Div Element
+// myNewElement = document.createElement('div');
+// //Create Text Node
+// myNewText = document.createTextNode('Hello From Javascript');
+// //Append Text To New Element
+// myNewElement.appendChild(myNewText)
+//     //Append The New ELement To The Main Div 
+// myMainDiv.appendChild(myNewText)
+// myMainDiv.insertBefore(myNewText, myMainDiv.firstElementChild)
+
+// appendChild Insert it At The End Of
+
+///////////////////   Elements Children  /////////////////////
+///////////////////     Append Child   /////////////////////
+
+// var myMainDiv = document.getElementById('main'),
+
+//     //create div element
+
+//     myNewElement = document.createElement('div'),
+
+//     //create another paragraph
+//     myNewP = document.createElement('p')
+
+// //create text node
+
+// myText = document.createTextNode('Welcome From Javascript');
+
+// myNewElement.appendChild(myText)
+
+// //append the new element to my main div 
+
+// myMainDiv.appendChild(myNewElement)
+
+// //append new p to the main div 
+
+// myMainDiv.appendChild(myNewP)
+
+///////////////////   Elements Children  /////////////////////
+///////////////////     Remove Child     /////////////////////
+
+// myDiv = document.getElementById('main');
+// myDiv.removeChild(myDiv.childNodes[1])
+// console.log(myDiv.childNodes)
 
 ///////////////////    Dom Course END    /////////////////////
 
